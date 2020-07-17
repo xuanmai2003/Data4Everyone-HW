@@ -1,0 +1,23 @@
+1. A Boolean value is either true or false. 
+3 different expression that results a Boolean type
+8 == (12-4)
+>> True
+5 == (6 + 2)
+>> False
+1 = "ha"
+2 = "noi"
+>> 1 + 2 == "hanoi"
+
+2. Flow chart is the chart the shows the steps of a process. 
+The steps are represented in boxes which are connected by arrows that shows the 
+direction of the steps.
+
+3. Nested conditionals is when we use a conditional inside another conditional.
+
+if x-2 == 0:
+    print('x == 2')
+else:
+    if x-2 < 0:
+        print('x < 2')
+    if x-2 > 0:
+        print('x > 2')
