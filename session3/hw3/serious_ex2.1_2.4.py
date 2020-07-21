@@ -9,25 +9,17 @@ sheep_size[b] = (8)
 print('After shearing, here is my flock')
 print(sheep_size)
 
-print('MONTH 1')
 new_sheep_size = []
 for i in sheep_size:
     new_sheep_size.append(i + 50)
 print('One month has passed, now here is my flock')
 print(new_sheep_size)
 
-c = int(max(new_sheep_size))
-print('Now my biggest sheep has size', c, 'lets shear it')
-d = new_sheep_size.index(c)
-new_sheep_size[d] = (8)
-e = new_sheep_size
-print('After shearing, here is my flock')
-print(e)
+# c = int(max(new_sheep_size))
+# print('Now my biggest sheep has size', c, 'lets shear it')
+# d = new_sheep_size.index(c)
+# new_sheep_size[d] = (8)
+# print('After shearing, here is my flock')
+# print(new_sheep_size)
 
-print('MONTH 2')
-for i in e:
-    e.append(i + 50)
-print('One month has passed, now here is my flock')
-print(e)
-print('One month has passed, now here is my flock')
-print(e)
+

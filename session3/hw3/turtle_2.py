@@ -11,4 +11,5 @@ for colors in ['red', 'blue', 'brown', 'yellow', 'gray']:
         left(90)
     forward(50)
     end_fill()    
+
 mainloop()
