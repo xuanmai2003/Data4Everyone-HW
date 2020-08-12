@@ -92,7 +92,7 @@ movies_database = connection.get_database('mongo_ex')
 # posts_found = posts_collection.find({'username':'ScumbagSteve'})
 # print(list(posts_found))
 
-comments_collection = movies_database.get_collection('comments')
+# comments_collection = movies_database.get_collection('comments')
 # comments_found = comments_collection.find()
 # print(list(comments_found))
 
